@@ -18,4 +18,5 @@ class Hello extends CI_Controller {
 
     $this->load->view('hello/index', $data);
   }
+
 }
