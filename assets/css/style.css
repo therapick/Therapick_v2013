@@ -37,6 +37,8 @@
     width: 850px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
+    top: 1em;
 }
 
 body {
@@ -115,6 +117,8 @@ a {
     font-size: 4.5em;
     color: #915496;
     text-shadow: 1px 1px 3px #432b48;
+    position: absolute;
+    top: 0.42em;
 }
 
 .favorites {
@@ -263,20 +267,20 @@ a {
 }
 
 .icon-magnifyingglass {
-    font-size: 2.7em;
+    font-size: 3.8em;
     position: absolute;
-    left: 5.11em;
-    top: 1.17em;
+    left: -0.04em;
+    top: 0.14em;
     color: #d2c7d3;
     text-shadow: 1px 1px 1px #5b335e;
 }
 .searchform .searchbutton {
-    height: 2.5em;
-    width: 2.5em;
+    height: 4.5em;
+    width: 4.5em;
     text-shadow: 0 1px 1px rgba(0,0,0,.6);
     position: absolute;
-    left: 10.9em;
-    top: 2.66em;
+    left: 19.97em;
+    top: 4.9em;
 
     border-top: 5px solid #dbd8db;
     border-right: 5px solid #f4f8fc;

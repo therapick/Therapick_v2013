@@ -1,20 +1,6 @@
-<!DOCTYPE HTML>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title><?php if (isset($title)) {echo $title;} ?></title>
-    <meta name="description" content="Therapick is the first online video directory of therapists. Browse video interviews of therapists, psychologist, counselors, and psychiatrists in your local area.">
-    <META NAME="KEYWORDS" CONTENT="Therapy, Therapist, Find a Therapist, Marriage Counseling, Counseling, Counselor, Couples Counseling, Psychologist, Psychotherapy, psychotherapist, counsellor, counselling, find a counselor, find a psychologist, Therapy Directory, therapist videos, video, video directory, Counseling Directory, Therapick, therapicks, therapix, therapic, therapik, Therapick.com, therapicks.com, therapix.com, therapic.com, therapik.com, shrink" >
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <script type='text/javascript' src='main.js'></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-</head>
-
-<body>
 <div id="wrapper">
-
+    
     <!--NAV BAR-->
     <div id="nav">
         <div id="nav-content">
@@ -22,13 +8,14 @@
                 <li><a href='/therapick/menu.html'><i class="icon-settings"></i></a></li>
                 <li class='title'><a href='/index.html'>therapick</a></li>
                 <li class='tagline'>the therapist video directory</li>
-                <a href='/therapick/favorites.html' id='faves'><li><i class="icon-heart"></i><span class='favorites'>Favorites</span></a></li>
+                <a href='/therapick/favorites.html' id='faves'><li><i class="icon-heart"></i><span class='favorites'>Favorites</span></li></a>
                 <a href='/therapick/get-listed.html'><li class='sign-up'>Sign up!</li></a>
                 <a href='/therapick/login.html'><li class='login'>Log in</li></a>
             </ul>
         </div>
     </div>
     <!--END NAV BAR-->
+
 
 
     <!--SEARCH BAR-->
@@ -99,49 +86,3 @@
     <!--END LINKS-->
 
 </div>
-
-<!--FOOTER-->
-<div id='footer'>
-
-    <div id='footer-links'>
-    <ul class="footer1">
-        <li><strong>Search</strong></li>
-        <br>
-        <li><a href='/index.html'>Find a Therapist</a></li>
-        <li><a href='/index.html'>Find a Counselor</a></li>
-        <li><a href='/index.html'>Find a Psychologist</a></li>
-        <li><a href='/index.html'>Find a Psychiatrist</a></li>
-    </ul>
-    <ul class="footer2">
-        <li><strong>Join</strong></li>
-        <br>
-        <li><a href='/index.html'>Get Listed</a></li>
-        <li><a href='/index.html'>About Us</a></li>
-        <li><a href='/index.html'>Therapist Websites</a></li>
-        <li><a href='/index.html'>Contact Us</a></li>
-    </ul>
-    <ul class="footer3">
-        <li><strong>Info</strong></li>
-        <br>
-        <li><a href='/index.html'>Therapist Videos</a></li>
-        <li><a href='/index.html'>About Therapy</a></li>
-        <li><a href='/index.html'>Glossary</a></li>
-        <li><a href='/index.html'>Hotlines</a></li>
-    </ul>
-    <ul class="footer4">
-        <li><strong>Legal</strong></li>
-        <br>
-        <li><a href='/index.html'>Privacy</a></li>
-        <li><a href='/index.html'>Terms of Use</a></li>
-        <li><a href='/index.html'>Helpful Hints</a></li>
-        <li><a href='/index.html'>Site Map</a></li>
-    </ul>
-    </div>
-
-<p>&copy; 2009&#8211;<?php echo date('Y'); ?> <a href='/index.html'>Therapick</a></p>
-
-</div>
-<!--END FOOTER-->
-
-</body>
-</html>
