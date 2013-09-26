@@ -1,22 +1,5 @@
-
+<body>
 <div id="wrapper">
-    
-    <!--NAV BAR-->
-    <div id="nav">
-        <div id="nav-content">
-            <ul id="navbar">
-                <li><a href='/therapick/menu.html'><i class="icon-settings"></i></a></li>
-                <li class='title'><a href='/index.html'>therapick</a></li>
-                <li class='tagline'>the therapist video directory</li>
-                <a href='/therapick/favorites.html' id='faves'><li><i class="icon-heart"></i><span class='favorites'>Favorites</span></li></a>
-                <a href='/therapick/get-listed.html'><li class='sign-up'>Sign up!</li></a>
-                <a href='/therapick/login.html'><li class='login'>Log in</li></a>
-            </ul>
-        </div>
-    </div>
-    <!--END NAV BAR-->
-
-
 
     <!--SEARCH BAR-->
 
@@ -86,3 +69,4 @@
     <!--END LINKS-->
 
 </div>
+</body>

@@ -39,10 +39,19 @@
     margin-left: auto;
     position: relative;
     top: 1em;
+    height: auto;
+    min-height: 100%;
+}
+
+#wrapper-bottom {
+    height: 14em;
 }
 
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+    padding-bottom:14em;
 }
 
 a {
@@ -196,6 +205,10 @@ a {
 }
 
 /* END OF NAV BAR */
+
+#nav-bumper {
+    height: 38px;
+}
 
 /* SEARCH BAR */
 
@@ -428,9 +441,9 @@ h3 {
 #footer {
     font: normal 0.77em Verdana, Trebuchet MS, Arial, Helvetica, serif;
     color: white;
+    height: 14em;
     position: relative;
-    top: 20em;
-    vertical-align: bottom;
+    bottom: 0;
     width: 100%;
     background: #352139;
     background: -webkit-gradient(linear, left top, left bottom, from(#7f5c86), to(#352139));

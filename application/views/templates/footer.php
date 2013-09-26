@@ -1,3 +1,5 @@
+<div id="wrapper-bottom"></div>
+
 <!--FOOTER-->
 
     <div id='footer'>
@@ -42,7 +44,4 @@
     </div>
 
 <!--END FOOTER-->
-
-</div>
-</body>
 </html>
